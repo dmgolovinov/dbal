@@ -42,6 +42,7 @@ final class DriverManager
             'pdo_sqlite' => 'Doctrine\DBAL\Driver\PDOSqlite\Driver',
             'pdo_pgsql'  => 'Doctrine\DBAL\Driver\PDOPgSql\Driver',
             'pdo_oci' => 'Doctrine\DBAL\Driver\PDOOracle\Driver',
+            'pdo_dblib' => 'Doctrine\DBAL\Driver\PDODblib\Driver',
             'oci8' => 'Doctrine\DBAL\Driver\OCI8\Driver',
             'ibm_db2' => 'Doctrine\DBAL\Driver\IBMDB2\DB2Driver',
             'pdo_ibm' => 'Doctrine\DBAL\Driver\PDOIbm\Driver',
