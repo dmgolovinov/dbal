@@ -84,7 +84,7 @@ class SybasePlatform extends SQLServerPlatform
             'datetimeoffset' => 'datetimetz',
             'smalldatetime' => 'datetime',
             'datetime' => 'datetime',
-            'timestamp' => 'datetime',
+            'timestamp' => 'string',
             'char' => 'string',
             'varchar' => 'string',
             'text' => 'text',
